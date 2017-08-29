@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Question5_13129589" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnJ-Na-BGj">
+                                <rect key="frame" x="146" y="117" width="110" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="photo2.png"/>
+                                <connections>
+                                    <segue destination="5iZ-s5-ZMQ" kind="show" id="wKI-kh-BsR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Snn-Kf-P9L">
+                                <rect key="frame" x="146" y="20" width="105" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="photo1.png"/>
+                                <connections>
+                                    <segue destination="5iZ-s5-ZMQ" kind="show" id="HAe-H0-7mU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBn-0E-4BO">
+                                <rect key="frame" x="146" y="218" width="119" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="photo3.png"/>
+                                <connections>
+                                    <segue destination="5iZ-s5-ZMQ" kind="show" id="3ti-cI-KKR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5T-xp-X2V">
+                                <rect key="frame" x="146" y="307" width="119" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="photo4.png"/>
+                                <connections>
+                                    <segue destination="5iZ-s5-ZMQ" kind="show" id="g0O-Iy-1kr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqT-4j-Bjd">
+                                <rect key="frame" x="146" y="397" width="119" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="photo5.png"/>
+                                <connections>
+                                    <segue destination="5iZ-s5-ZMQ" kind="show" id="dZh-ZC-zfq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OnV-kr-d1Z">
+                                <rect key="frame" x="146" y="487" width="119" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="photo6.png"/>
+                                <connections>
+                                    <segue destination="5iZ-s5-ZMQ" kind="showDetail" id="XFR-Fu-bc0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="photo1" destination="Snn-Kf-P9L" id="U0C-76-EOF"/>
+                        <outlet property="photo2" destination="KnJ-Na-BGj" id="3oZ-uM-cA6"/>
+                        <outlet property="photo3" destination="sBn-0E-4BO" id="FxN-q2-IVb"/>
+                        <outlet property="photo4" destination="t5T-xp-X2V" id="mOR-TD-d7f"/>
+                        <outlet property="photo5" destination="GqT-4j-Bjd" id="N4Z-fA-vbe"/>
+                        <outlet property="photo6" destination="OnV-kr-d1Z" id="fk3-Ka-Odb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Image Display View Controller-->
+        <scene sceneID="mmX-Da-htd">
+            <objects>
+                <viewController id="5iZ-s5-ZMQ" customClass="ImageDisplayViewController" customModule="Question5_13129589" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jvg-jC-6aI"/>
+                        <viewControllerLayoutGuide type="bottom" id="LPG-wZ-pyI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jZG-De-h4a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qGO-B2-YTl">
+                                <rect key="frame" x="22" y="6" width="353" height="634"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0q-Kx-AvU">
+                                        <rect key="frame" x="301" y="28" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="X"/>
+                                        <connections>
+                                            <action selector="done:" destination="5iZ-s5-ZMQ" eventType="touchUpInside" id="LlC-fJ-IRB"/>
+                                        </connections>
+                                    </button>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="photo6.png" translatesAutoresizingMaskIntoConstraints="NO" id="jcc-Lf-uU0">
+                                        <rect key="frame" x="25" y="131" width="291" height="258"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="low-vi-jnL" appends="YES" id="Y0c-qD-qSd"/>
+                                            <outletCollection property="gestureRecognizers" destination="xyG-la-Tkn" appends="YES" id="kEf-dI-RhM"/>
+                                            <outletCollection property="gestureRecognizers" destination="vZL-dG-HpO" appends="YES" id="uHq-6t-pqG"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="jcc-Lf-uU0" id="cLS-7A-qkb"/>
+                        <outlet property="scrollview" destination="qGO-B2-YTl" id="Ig4-Zd-zI4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uue-GU-J2R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="low-vi-jnL">
+                    <connections>
+                        <action selector="handlePan:" destination="5iZ-s5-ZMQ" id="N21-E9-qyQ"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="xyG-la-Tkn">
+                    <connections>
+                        <action selector="handlePinch:" destination="5iZ-s5-ZMQ" id="yCB-PL-VB2"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="vZL-dG-HpO">
+                    <connections>
+                        <action selector="handleRotate:" destination="5iZ-s5-ZMQ" id="xXQ-6b-vTa"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1005.6" y="126.38680659670166"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="photo1.png" width="500" height="500"/>
+        <image name="photo2.png" width="500" height="500"/>
+        <image name="photo3.png" width="500" height="500"/>
+        <image name="photo4.png" width="500" height="500"/>
+        <image name="photo5.png" width="500" height="500"/>
+        <image name="photo6.png" width="500" height="500"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="g0O-Iy-1kr"/>
+    </inferredMetricsTieBreakers>
+</document>

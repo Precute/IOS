@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MockExampleQ2/ImageDisplayViewController.swift"
+            timestampString = "514585254.742791"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ImageDisplayViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MockExampleQ2.ImageDisplayViewController.imageView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "MockExampleQ2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darren/Dropbox/Teaching/MobileApps2016/mockExam1617/MockExampleQ2/MockExampleQ2/ImageDisplayViewController.swift"
+                  timestampString = "514586482.207445"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MockExampleQ2.ImageDisplayViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MockExampleQ2.ImageDisplayViewController"
+                  moduleName = "MockExampleQ2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darren/Dropbox/Teaching/MobileApps2016/mockExam1617/MockExampleQ2/MockExampleQ2/ImageDisplayViewController.swift"
+                  timestampString = "514586482.211708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MockExampleQ2.ImageDisplayViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MockExampleQ2.ImageDisplayViewController&gt;"
+                  moduleName = "MockExampleQ2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darren/Dropbox/Teaching/MobileApps2016/mockExam1617/MockExampleQ2/MockExampleQ2/ImageDisplayViewController.swift"
+                  timestampString = "514586482.216378"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
